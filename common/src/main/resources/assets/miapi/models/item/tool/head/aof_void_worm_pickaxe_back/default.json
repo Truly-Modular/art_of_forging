@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "miapi:item/tool/head/void_worm_pickaxe/void_worm_pickaxe_right"
+    }
+}

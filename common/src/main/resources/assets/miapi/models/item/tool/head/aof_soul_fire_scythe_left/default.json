@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "miapi:item/tool/head/soul_fire_scythe/soul_fire_left"
+    }
+}

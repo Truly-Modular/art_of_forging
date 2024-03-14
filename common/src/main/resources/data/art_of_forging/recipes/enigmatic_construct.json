@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "f e",
+        " d ",
+        "e f"
+    ],
+    "key": {
+        "d": {
+            "item": "art_of_forging_miapi:dragon_soul"
+        },
+        "f": {
+            "item": "art_of_forging_miapi:forged_steel_ingot"
+        },
+        "e": {
+            "item": "art_of_forging_miapi:endsteel_ingot"
+        }
+    },
+    "result": {
+        "item": "art_of_forging_miapi:enigmatic_construct",
+        "count": 1
+    }
+}

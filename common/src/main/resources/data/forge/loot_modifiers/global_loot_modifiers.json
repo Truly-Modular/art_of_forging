@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "entries": [
+        "art_of_forging_miapi:dungeon_additions",
+        "art_of_forging_miapi:evoker_additions",
+        "art_of_forging_miapi:wither_additions",
+        "art_of_forging_miapi:underwater_ruin_small_additions",
+        "art_of_forging_miapi:ender_dragon_additions",
+        "art_of_forging_miapi:ancient_city_additions",
+        "art_of_forging_miapi:forged_container_additions",
+        "art_of_forging_miapi:wither_skeleton_additions",
+        "art_of_forging_miapi:blaze_condition_additions"
+    ]
+}

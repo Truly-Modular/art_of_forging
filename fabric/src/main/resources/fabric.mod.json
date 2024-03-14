@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "art_of_forging_miapi",
+  "version": "${version}",
+
+  "name": "Art Of Forging",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "All Rights Reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ace.aof.fabric.ArtOfForgingFabric"
+    ]
+  },
+  "mixins": [
+    "art_of_forging_miapi.mixins.json",
+    "art_of_forging_miapi-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "minecraft": ">=1.20.1"
+  }
+}

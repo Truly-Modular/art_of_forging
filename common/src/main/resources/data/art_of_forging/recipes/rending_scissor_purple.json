@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  l",
+        " s ",
+        "w  "
+    ],
+    "key": {
+        "s": {
+            "item": "minecraft:netherite_sword"
+        },
+        "w": {
+            "item": "minecraft:purple_wool"
+        },
+        "l": {
+            "item": "art_of_forging_miapi:life_fiber"
+        }
+    },
+    "result": {
+        "item": "art_of_forging_miapi:rending_scissor_purple",
+        "count": 1
+    }
+}
