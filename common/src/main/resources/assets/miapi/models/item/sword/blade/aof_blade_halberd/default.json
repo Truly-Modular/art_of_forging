@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "miapi:item/sword/head/hallberd_head/metal"
+        "layer0": "miapi:item/sword/head/halberd_head/metal"
     }
 }

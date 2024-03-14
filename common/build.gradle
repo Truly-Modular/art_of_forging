@@ -17,6 +17,10 @@ repositories {
             includeGroup 'maven.modrinth'
         }
     }
+    maven {
+        url 'http://trulymodular.duckdns.org/maven'
+        allowInsecureProtocol = true
+    }
 }
 
 dependencies {
@@ -26,16 +30,7 @@ dependencies {
     // Remove the next line if you don't want to depend on the API
     modApi "dev.architectury:architectury:${rootProject.architectury_version}"
 
-    modApi ("maven.modrinth:modular-item-api:${rootProject.miapi_version}-fabric")
-
-    modApi "com.redpxnda.nucleus:nucleus-core-common:${rootProject.minecraft_version}+${rootProject.nucleus_core_version}"
-    modApi "com.redpxnda.nucleus:nucleus-codec-common:${rootProject.minecraft_version}+${rootProject.nucleus_codec_version}"
-    modApi "com.redpxnda.nucleus:nucleus-config-common:${rootProject.minecraft_version}+${rootProject.nucleus_config_version}"
-    modApi "com.redpxnda.nucleus:nucleus-pose-common:${rootProject.minecraft_version}+${rootProject.nucleus_pose_version}"
-    modApi "com.redpxnda.nucleus:nucleus-facet-common:${rootProject.minecraft_version}+${rootProject.nucleus_facet_version}"
-    modApi "com.redpxnda.nucleus:nucleus-trinket-common:${rootProject.minecraft_version}+${rootProject.nucleus_trinket_version}"
-
-    implementation('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
+    modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-common:${rootProject.miapi_version}")
 }
 
 publishing {

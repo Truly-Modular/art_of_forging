@@ -2,7 +2,7 @@
     "name": "aof_blade_halberd",
     "texture": [
         {
-            "path": "miapi:models/item/sword/blade/aof_blade_halberd/[material.texture].json",e
+            "path": "miapi:models/item/sword/blade/aof_blade_halberd/[material.texture].json",
             "transform": {
                 "rotation": {
                     "x": 0.0,
