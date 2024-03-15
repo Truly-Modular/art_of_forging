@@ -1,6 +1,7 @@
 package ace.aof;
 
 import ace.aof.registry.ItemRegistry;
+import com.redpxnda.nucleus.Nucleus;
 
 public class ArtOfForging
 {
@@ -8,5 +9,6 @@ public class ArtOfForging
 
 	public static void init() {
 		ItemRegistry.init();
+		Nucleus nucleus;
 	}
 }

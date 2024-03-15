@@ -1,5 +1,6 @@
 {
     "name": "aof_blade_halberd",
+    "material": "gold",
     "texture": [
         {
             "path": "miapi:models/item/sword/blade/aof_blade_halberd/[material.texture].json",
@@ -10,9 +11,30 @@
                     "z": 0.0
                 },
                 "translation": {
-                    "x": -3.0,
-                    "y": -3.0,
+                    "x": -7.0,
+                    "y": -7.0,
                     "z": -0.001
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        },
+        {
+            "path": "miapi:models/item/sword/handle/extentions/type_1/[material.texture].json",
+            "color_provider": "parent",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": 2.0,
+                    "y": 2.0,
+                    "z": 0.001
                 },
                 "scale": {
                     "x": 1,

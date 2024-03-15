@@ -2,6 +2,7 @@
     "name": "aof_blade_void_worm_cleaver",
     "texture": {
         "path": "miapi:models/item/sword/blade/aof_blade_worm_cleaver/[material.texture].json",
+        "color_provider": "model",
         "transform": {
             "rotation": {
                 "x": 0.0,

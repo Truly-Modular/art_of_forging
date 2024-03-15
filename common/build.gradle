@@ -31,6 +31,7 @@ dependencies {
     modApi "dev.architectury:architectury:${rootProject.architectury_version}"
 
     modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-common:${rootProject.miapi_version}")
+    modApi "com.redpxnda.nucleus:nucleus-trinket-common:${rootProject.minecraft_version}+${rootProject.nucleus_trinket_version}"
 }
 
 publishing {

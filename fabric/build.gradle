@@ -50,6 +50,8 @@ dependencies {
     modApi "dev.architectury:architectury-fabric:${rootProject.architectury_version}"
 
     modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-fabric:${rootProject.miapi_version}")
+    modApi "com.redpxnda.nucleus:nucleus-trinket-fabric:${rootProject.minecraft_version}+${rootProject.nucleus_trinket_version}"
+    modApi("dev.emi:trinkets:${rootProject.trinkets_version}")
     modApi "maven.modrinth:truly-modular-arsenal:${rootProject.arsenal_version}-fabric"
     modApi "maven.modrinth:truly-modular-archery:${rootProject.archery_version}-fabric"
     modApi "maven.modrinth:truly-modular-armory:${rootProject.armory_version}-fabric"

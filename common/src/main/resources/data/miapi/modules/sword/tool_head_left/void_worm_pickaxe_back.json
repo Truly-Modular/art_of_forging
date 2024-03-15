@@ -2,6 +2,7 @@
     "name": "aof_void_worm_pickaxe_back",
     "texture": {
         "path": "miapi:models/item/tool/head/aof_void_worm_pickaxe_back/[material.texture].json",
+        "color_provider": "model",
         "transform": {
             "rotation": {
                 "x": 0.0,
